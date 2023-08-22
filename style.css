@@ -1,0 +1,33 @@
+.card{
+    height: 250px;
+    width: 200px;
+    border-radius:15px ;
+    background-image: url("https://freepngimg.com/thumb/categories/627.png");
+    background-repeat: no-repeat;
+    margin: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -25px;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+}
+.card:hover{
+    margin-top: 2px;
+    /* margin-left: 2px; */
+}
+body{
+    font-family: 'gilroy';
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    
+}
+.pricing{
+    align-self: flex-end;
+    padding: 1.5vw;
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-weight: bold;
+}
